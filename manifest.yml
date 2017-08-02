@@ -4,6 +4,7 @@ applications:
   - sample-node-red-cloudantNoSQLDB
   env:
     NODE_RED_STORAGE_NAME: sample-node-red-cloudantNoSQLDB
+    NODE_RED_APP_NAME: sample-node-red
 declared-services:
   sample-node-red-cloudantNoSQLDB:
     label: cloudantNoSQLDB
